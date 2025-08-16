@@ -10,7 +10,7 @@ const app = express();
 const port = 3000;
 app.use(express.json())
 app.use(cors({
-  origin:"http://localhost:5173",
+  origin:"https://virtualassistant-49ll.onrender.com",
   credentials:true,
 }))
 app.use(cookieParser())
